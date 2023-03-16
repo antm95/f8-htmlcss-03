@@ -1,0 +1,23 @@
+/* ***** TAG SETTING ***** */
+* {
+    /* Box Model */
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #1ebfc1;
+}
+html,
+body {
+    /* Other */
+    /* Scroll Smooth for All Browser */
+    scroll-behavior: smooth;
+}
+html {
+    /* Text */
+    font-size: 62.5%;
+}
+body {
+    /* Text */
+    font: 1.6rem "Sora", "Open Sans", san-serif;
+}
+/* ********************** */
