@@ -108,6 +108,7 @@ a {
     background-color: #2e80ce;
     /* Text */
     font-weight: 400;
+    font-size: 1.8rem;
     text-align: center;
     line-height: var(--height-btn);
     /* Other */
@@ -142,7 +143,7 @@ a {
     display: flex;
 }
 .navbar__link,
-.action__log-in {
+.header-action__log-in {
     /* Box Model */
     padding: 8px 21px;
     /* Color */
@@ -153,7 +154,7 @@ a {
 }
 .navbar__link:hover,
 .navbar__link--active,
-.action__log-in:hover {
+.header-action__log-in:hover {
     /* Color */
     color: #fff;
     text-shadow: 1px 0 0 currentColor;
@@ -172,15 +173,99 @@ a {
     /* Color */
     background-color: #fff;
 }
-.action__log-in {
+.header-action {
+    /* Display */
+    display: flex;
+    align-items: center;
+}
+.header-action__log-in {
     /* Box Model */
     padding: 8px 0;
     margin-right: 28px;
 }
-.action__sign-up {
+.header-action__sign-up {
     /* Variable */
     --min-width-btn: 104px;
     --height-btn: 44px;
+    /* Text */
+    font-size: 1.6rem;
 }
 /* ----- ---------- ----- */
+/* ----- Hero ----- */
+.hero {
+    /* Display & Box Model */
+    display: flex;
+    align-items: center;
+    margin-top: 76px;
+}
+.hero__content {
+    /* Display & Box Model */
+    flex-shrink: 0;
+    width: 45%;
+}
+.hero__heading {
+    /* Color */
+    color: #fff;
+    /* Text */
+    font-weight: 600;
+    font-size: 7rem;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+.hero__desc {
+    /* Box Model */
+    margin-top: 22px;
+    /* Color */
+    color: #c9d2da;
+    /* Text */
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+}
+.hero__cta {
+    /* Display & Box Model */
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+.hero__tel {
+    /* Box Model */
+    margin-left: 38px;
+    /* Color */
+    color: #fff;
+    /* Text */
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.hero__media {
+    /* Display */
+    flex-grow: 1;
+}
+.hero__images {
+    /* Display */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hero__img {
+    /* Box Model */
+    width: 330px;
+    height: 540px;
+    border-radius: 6px;
+    /* Other */
+    object-fit: cover;
+    vertical-align: bottom;
+}
+.hero__img:first-child {
+    /* Positioning */
+    position: relative;
+    /* Box Model */
+    margin-right: -6px;
+}
+.hero__img:last-child {
+    /* Box Model */
+    width: 210px;
+    height: 410px;
+}
+/* ----- ---- ----- */
 /* ================== */
