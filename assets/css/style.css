@@ -503,4 +503,89 @@ a {
     margin-top: 38px;
 }
 /* ----- ------- ----- */
+/* ----- Dentist ----- */
+.dentist {
+    /* Box Model */
+    padding: 85px 0;
+}
+.dentist__cta {
+    /* Box Model */
+    margin-top: 53px;
+    margin-left: 50%;
+    /* Other */
+    transform: translateX(-50%);
+}
+.dentist__list {
+    /* Display & Box Model */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    margin-top: 70px;
+    /* Text */
+    text-align: center;
+}
+.dentist-item__img-bg {
+    /* Box Model */
+    height: 318px;
+    padding-top: 28px;
+    border-radius: 6px;
+    /* Color */
+    background-color: #eaf6ff;
+    /* Other */
+    overflow: hidden;
+}
+.dentist-item__thumb {
+    /* Display */
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    /* Other */
+    object-fit: cover;
+}
+.dentist-item__name {
+    /* Box Model */
+    margin-top: 12px;
+    /* Color */
+    color: #10375c;
+    /* Text */
+    font-weight: 400;
+    line-height: 1.75;
+}
+.dentist-item__desc {
+    /* Color */
+    color: #575f66;
+    /* Text */
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.86;
+}
+.dentist__control {
+    /* Display & Box Model */
+    display: flex;
+    justify-content: center;
+    column-gap: 18px;
+    margin-top: 38px;
+}
+.dentist__control-btn {
+    /* Display & Box Model */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    /* Color */
+    color: #fff;
+    background-color: #2e80ce;
+    /* Other */
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.dentist__control-btn:hover {
+    /* Color */
+    color: #575f66;
+    background-color: #fff;
+}
+/* ----- ------- ----- */
 /* ================ */ ;
