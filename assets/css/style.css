@@ -126,6 +126,7 @@ a {
     /* Text */
     font-weight: 600;
     font-size: 5rem;
+    line-height: 1.2;
     letter-spacing: -0.02em;
 }
 .section-desc {
@@ -590,6 +591,50 @@ a {
     /* Color */
     color: #575f66;
     background-color: #fff;
+}
+/* ----- ------- ----- */
+/* ----- Install ----- */
+.install {
+    /* Box Model */
+    margin-top: 180px;
+}
+.install-inner {
+    /* Display & Box Model */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    border-radius: 4px;
+    /* Color */
+    background-color: #2e80ce;
+}
+.install__img {
+    /* Box Model */
+    width: 284px;
+    height: 522px;
+    margin-top: -95px;
+    /* Other */
+    object-fit: cover;
+    vertical-align: bottom;
+}
+.install__heading,
+.install__desc {
+    /* Color */
+    color: #fff;
+}
+.install__heading {
+    /* Box Model */
+    width: 490px;
+}
+.install__desc {
+    /* Box Model */
+    max-width: 588px;
+}
+.install__cta {
+    /* Display & Box Model */
+    display: flex;
+    column-gap: 28px;
+    margin-top: 38px;
 }
 /* ----- ------- ----- */
 /* ================ */ ;
