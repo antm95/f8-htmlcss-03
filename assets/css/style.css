@@ -139,6 +139,34 @@ a {
     font-size: 1.8rem;
     line-height: 1.67;
 }
+/* ----- Control Buttons ----- */
+.control {
+    /* Display & Box Model */
+    display: flex;
+    column-gap: 18px;
+}
+.control__btn {
+    /* Display & Box Model */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    /* Color */
+    color: #fff;
+    background-color: #2e80ce;
+    /* Other */
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.control__btn:hover {
+    /* Color */
+    color: #575f66;
+    background-color: #fff;
+}
+/* ----- ------ ----- */
 .section-heading--center,
 .section-desc--center {
     /* Text */
@@ -566,31 +594,8 @@ a {
 }
 .dentist__control {
     /* Display & Box Model */
-    display: flex;
     justify-content: center;
-    column-gap: 18px;
     margin-top: 38px;
-}
-.dentist__control-btn {
-    /* Display & Box Model */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 36px;
-    height: 36px;
-    border: 1px solid currentColor;
-    border-radius: 50%;
-    /* Color */
-    color: #fff;
-    background-color: #2e80ce;
-    /* Other */
-    transition-duration: 0.3s;
-    cursor: pointer;
-}
-.dentist__control-btn:hover {
-    /* Color */
-    color: #575f66;
-    background-color: #fff;
 }
 /* ----- ------- ----- */
 /* ----- Install ----- */
@@ -637,4 +642,119 @@ a {
     margin-top: 38px;
 }
 /* ----- ------- ----- */
+/* ----- News ----- */
+.news {
+    /* Box Model */
+    padding: 85px 0;
+    margin-top: 85px;
+}
+.news__inner {
+    /* Display */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.news__content {
+    /* Box Model */
+    max-width: 470px;
+}
+.news__more,
+.news__control {
+    /* Box Model */
+    margin-top: 28px;
+}
+.news__more {
+    /* Display */
+    display: inline-block;
+    /* Color */
+    color: #10375c;
+    /* Text */
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+}
+.news__list {
+    /* Display & Box Model */
+    display: flex;
+    column-gap: 30px;
+    max-width: 570px;
+}
+.news-item {
+    /* Box Model */
+    flex: 1;
+    border: 1px solid;
+    border-radius: 12px;
+    /* Color */
+    background-color: #fff;
+    border-color: #e8ebee;
+    /* Other */
+    overflow: hidden;
+    transition-duration: 0.3s;
+}
+.news-item:hover {
+    /* Color */
+    border-color: transparent;
+    box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.05);
+}
+.news-item__thumb {
+    /* Box Model */
+    height: 172px;
+    border-radius: 12px 12px 0 0;
+    /* Other */
+    overflow: hidden;
+}
+.news-item__img {
+    /* Box Model */
+    width: 100%;
+    height: 100%;
+    /* Other */
+    object-fit: cover;
+    transition-duration: 0.3s;
+}
+.news-item:hover .news-item__img {
+    /* Other */
+    transform: scale(1.1);
+}
+.news-item__body {
+    /* Box Model */
+    padding: 18px 22px 20px;
+    /* Color */
+    background-color: #fff;
+    /* Other */
+    transition-duration: 0.3s;
+}
+.news-item__heading {
+    /* Color */
+    color: #10375c;
+    /* Text */
+    font-weight: 600;
+    line-height: 1.62;
+}
+.news-item__desc {
+    /* Box Model */
+    margin-top: 10px;
+    /* Color */
+    color: #575f66;
+    /* Text */
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.71;
+}
+.news-item__more {
+    /* Display & Box Model */
+    display: inline-block;
+    margin-top: 12px;
+    /* Color */
+    color: #10375c;
+    /* Text */
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.news-item__more:hover {
+    /* Color */
+    color: #2e80ce;
+}
+/* ----- ---- ----- */
 /* ================ */ ;
