@@ -541,6 +541,10 @@ a {
     margin: 0 auto;
     /* Other */
     object-fit: cover;
+    transition-duration: 0.3s;
+}
+.dentist-item:hover .dentist-item__thumb {
+    transform: scale(1.1);
 }
 .dentist-item__name {
     /* Box Model */
