@@ -139,6 +139,11 @@ a {
     font-size: 1.8rem;
     line-height: 1.67;
 }
+.section-heading--center,
+.section-desc--center {
+    /* Text */
+    text-align: center;
+}
 /* ----- Control Buttons ----- */
 .control {
     /* Display & Box Model */
@@ -167,11 +172,6 @@ a {
     background-color: #fff;
 }
 /* ----- ------ ----- */
-.section-heading--center,
-.section-desc--center {
-    /* Text */
-    text-align: center;
-}
 /* ************************ */
 
 /* ===== HEADER ===== */
@@ -762,4 +762,50 @@ a {
     color: #2e80ce;
 }
 /* ----- ---- ----- */
+/* ----- Appointment ----- */
+.appointment {
+    /* Box Model */
+    margin-top: 85px 0 170px;
+}
+.appointment-body {
+    /* Box Model */
+    padding: 100px 0;
+    border-radius: 4px;
+    /* Color */
+    background-color: #f6fbff;
+}
+.appointment__heading {
+    /* Positioning */
+    position: relative;
+    padding-bottom: 20px;
+}
+.appointment__heading::after {
+    /* Positioning */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Box Model */
+    content: "";
+    display: inline-block;
+    width: 136px;
+    height: 2px;
+    margin: 0 auto;
+    /* Color */
+    background-color: #2e80ce;
+}
+.appointment__desc {
+    /* Box Model */
+    max-width: 617px;
+    margin: 18px auto 38px;
+    /* Text */
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+.appointment__btn {
+    /* Box Model */
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+/* ----- ----------- ----- */
 /* ================ */ ;
